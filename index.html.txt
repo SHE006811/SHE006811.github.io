@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fatimaezzahra Bara | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2 class="logo">Fatimaezzahra</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Hello, I'm <span>Fatimaezzahra Bara</span></h1>
+
+<p>Computer Science Student | Future Software Engineer</p>
+
+<a href="#projects" class="btn">See My Work</a>
+
+</section>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Computer science student passionate about programming and building useful applications. 
+I enjoy developing projects in Python, exploring new technologies, and improving my problem-solving skills through coding and software development.
+</p>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill">Python</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Git</div>
+<div class="skill">Tkinter</div>
+<div class="skill">Problem Solving</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects-container">
+
+
+<div class="project">
+
+<h3>Therapy App</h3>
+
+<p>
+A simple application designed to support users with mental wellness features and interactive tools.
+</p>
+
+<a href="https://github.com/SHE006811" target="_blank">View on GitHub</a>
+
+</div>
+
+
+<div class="project">
+
+<h3>Student Management System</h3>
+
+<p>
+Python application with a graphical interface built using Tkinter to manage students information.
+</p>
+
+<a href="https://github.com/SHE006811" target="_blank">View on GitHub</a>
+
+</div>
+
+
+<div class="project">
+
+<h3>Escape Key Game</h3>
+
+<p>
+A simple Python game where the player escapes by collecting keys while avoiding obstacles.
+</p>
+
+<a href="https://github.com/SHE006811" target="_blank">View on GitHub</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: fatimaezzahrabara@gmail.com</p>
+
+<p>GitHub: <a href="https://github.com/SHE006811">github.com/SHE006811</a></p>
+
+<p>LinkedIn: <a href="https://linkedin.com/in/fatimaezzahra-bara-77a035300">linkedin.com/in/fatimaezzahra-bara-77a035300</a></p>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Fatimaezzahra Bara</p>
+
+</footer>
+
+</body>
+</html>
