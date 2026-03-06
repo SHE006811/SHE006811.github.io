@@ -1,4 +1,4 @@
-const text = "Computer Science Student | Future Software Engineer";
+const text = "Computer Science Student | Python Developer | Future Software Engineer";
 let i = 0;
 
 function typing(){
@@ -9,7 +9,7 @@ document.querySelector(".typing").textContent += text.charAt(i);
 
 i++;
 
-setTimeout(typing,60);
+setTimeout(typing,50);
 
 }
 
