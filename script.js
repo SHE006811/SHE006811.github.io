@@ -1,18 +1,23 @@
-const text = "Computer Science Student | Python Developer | Future Software Engineer";
-let i = 0;
+fetch("https://api.github.com/users/SHE006811/repos")
+.then(res => res.json())
+.then(data => {
 
-function typing(){
+const container = document.querySelector(".projects");
 
-if(i < text.length){
+data.slice(0,6).forEach(repo => {
 
-document.querySelector(".typing").textContent += text.charAt(i);
+const card = document.createElement("div");
 
-i++;
+card.className = "card";
 
-setTimeout(typing,50);
+card.innerHTML = `
+<h3>${repo.name}</h3>
+<p>${repo.description || "GitHub project"}</p>
+<a href="${repo.html_url}" target="_blank">View Project</a>
+`;
 
-}
+container.appendChild(card);
 
-}
+});
 
-typing();
+});
